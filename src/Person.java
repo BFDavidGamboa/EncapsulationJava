@@ -32,7 +32,7 @@ public class Person {
     }
 
     public void setDeleted(boolean deleted) {
-        this.deleted = deleted;
+        this.deleted =deleted;
     }
 
     @Override
