@@ -8,6 +8,11 @@ public class TestPerson {
         System.out.println("person salary" + person.getSalary());
         System.out.println("persona borrada?: " + person.isDeleted());
 
+        System.out.println("person auto string" + person);
+
+
+        System.out.println("All data" + person.toString());
+
         person.setName("Carlos");
         person.setSalary(3000);
         person.setDeleted(true);
@@ -18,6 +23,9 @@ public class TestPerson {
         System.out.println("person salary" + person.getSalary());
         System.out.println("persona borrada?: " + person.isDeleted());
 
+        //The method println implicity uses the method toString when passing a class by defautl
+        System.out.println("person auto string" + person);
+        System.out.println("All data" + person.toString());
 
 
     }
